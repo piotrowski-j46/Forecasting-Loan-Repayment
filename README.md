@@ -14,7 +14,7 @@ The biggest challenge in this dataset was the absence of strong linear correlati
   - Target Encoding (OOF - Out of Fold): Applied strictly within cross-validation folds to completely eliminate data leakage.
   - Frequency Encoding: Used to capture signal from low-frequency categories.
 - Discretization & Binning:
-  - Rounding continuous values (to ones and tens) and grouping them into bins. This approach successfully extracted a clean, non-linear signal where linear correlations were near zero.
+  - Rounding continuous values (to ones and tens) and grouping them into bins. This approach successfully extracted a clean, non-linear signal.
 - Hyperparameter Optimization (HPO): Tuned the model using Optuna, focusing on reducing feature redundancy and preventing overfitting.
 # Final Model (Ensemble)
 
