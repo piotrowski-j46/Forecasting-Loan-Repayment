@@ -1,0 +1,22 @@
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.idea/
+*.swp
+
+__pycache__/
+*.py
+
+
+*.db
+*.log
+final_optuna_logs.db
+Submissions/*.csv
+Training data/*.csv
+Optuna logs/*
+
+Model_test.ipynb
+model_features_test.json
+df_processed.csv
+
+.DS_Store
