@@ -26,3 +26,6 @@ The solution is powered by XGBoost. Instead of relying on a single "lucky" model
 - Python (pandas, numpy, scikit-learn, matplotlib, seaborn, json)
 - XGBoost
 - Optuna
+
+# Dataset
+[Forecasting loan repayment](https://www.kaggle.com/competitions/forecasting-loan-repayment/data)
