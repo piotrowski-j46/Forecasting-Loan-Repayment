@@ -15,8 +15,7 @@ The biggest challenge in this dataset was the absence of strong linear correlati
   - Frequency Encoding: Used to capture signal from low-frequency categories.
 - Discretization & Binning:
   - Rounding continuous values (to ones and tens) and grouping them into bins. This approach successfully extracted a clean, non-linear signal where linear correlations were near zero.
-- Hyperparameter Optimization (HPO): Tuned the model using Optuna, focusing on reducing feature redundancy and preventing overfitting. The final model utilizes extremely low L1/L2 regularization and a restricted max_bin size to force better generalization.
-
+- Hyperparameter Optimization (HPO): Tuned the model using Optuna, focusing on reducing feature redundancy and preventing overfitting.
 # Final Model (Ensemble)
 
 The solution is powered by XGBoost. Instead of relying on a single "lucky" model, I implemented a variance-reduction architecture:
